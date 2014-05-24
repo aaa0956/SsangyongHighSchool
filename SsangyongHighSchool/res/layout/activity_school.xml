@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2CCFF"
+    android:orientation="vertical" >
+    
+    	<ImageView
+		android:id="@+id/top"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/top" />
+    
+    	<ImageView
+		android:layout_width="match_parent"
+    	android:layout_height="1dp"
+    	android:background="#000000" />
+    
+    	<ImageButton
+		android:id="@+id/sc1"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/btn_sc1_default" />    
+    	
+    	<ImageButton
+		android:id="@+id/sc2"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/btn_sc2_default" />    
+    	
+    	<ImageButton
+		android:id="@+id/sc3"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/btn_sc3_default" />    
+    	
+    	<ImageButton
+		android:id="@+id/sc4"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/btn_sc4_default" />
+    	
+    	<ImageButton
+		android:id="@+id/sc5"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/btn_sc5_default" />
+    
+</LinearLayout>

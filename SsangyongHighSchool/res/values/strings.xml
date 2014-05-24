@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">쌍용GO</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_facebook">쌍용GO 페이스북</string>
+    <string name="title_activity_grade1">1학년 시간표</string>
+    <string name="title_activity_grade2">2학년 시간표</string>
+    <string name="title_activity_grade3">3학년 시간표</string>
+    <string name="title_activity_meal">식단표</string>
+    <string name="title_activity_calendar">2014년 학사일정</string>
+    <string name="title_activity_school">학교소개</string>
+    <string name="title_activity_school2">학교연혁</string>
+    <string name="title_activity_school5">찾아오시는 길</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

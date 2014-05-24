@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="semicolon.syhs"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	
+    <uses-sdk android:minSdkVersion="9" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="semicolon.syhs.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="semicolon.syhs.Facebook"
+            android:label="@string/title_activity_facebook" >
+        </activity>
+        <activity
+            android:name="semicolon.syhs.Grade1"
+            android:label="@string/title_activity_grade1" >
+        </activity>
+        <activity
+            android:name="semicolon.syhs.Grade2"
+            android:label="@string/title_activity_grade2" >
+        </activity>
+        <activity
+            android:name="semicolon.syhs.Grade3"
+            android:label="@string/title_activity_grade3" >
+        </activity>
+        <activity
+            android:name="semicolon.syhs.Meal"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_meal"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="semicolon.syhs.Calendar"
+            android:label="@string/title_activity_calendar" >
+        </activity>
+        <activity
+            android:name="semicolon.syhs.School"
+            android:label="@string/title_activity_school" >
+        </activity>
+        <activity
+            android:name="semicolon.syhs.School2"
+            android:label="@string/title_activity_school2" >
+        </activity>
+        <activity
+            android:name="semicolon.syhs.School5"
+            android:label="@string/title_activity_school5" >
+        </activity>
+        <activity
+            android:name="semicolon.syhs.SplashActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar" >
+		</activity>
+    </application>
+
+</manifest>
